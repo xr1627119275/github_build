@@ -8,4 +8,6 @@ RUN set -eux; \
 	apk del --no-network .build-deps; \
 #ENTRYPOINT 
 #CMD ["/bin/sh"]
-CMD ["/usr/local/bin/python3", "/app/run.py"]
+#CMD ["/usr/local/bin/python3", "/app/run.py"]
+ENTRYPOINT ["/usr/local/bin/python3", "/app/run.py"]
+
