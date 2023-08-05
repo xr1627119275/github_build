@@ -9,5 +9,5 @@ RUN set -eux; \
 #ENTRYPOINT 
 #CMD ["/bin/sh"]
 #CMD ["/usr/local/bin/python3", "/app/run.py"]
-ENTRYPOINT ["/usr/local/bin/python3", "/app/run.py"]
+#ENTRYPOINT ["/usr/local/bin/python3", "/app/run.py"]
 
