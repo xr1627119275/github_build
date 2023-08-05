@@ -5,5 +5,5 @@ RUN set -eux; \
 	build-base libffi-dev curl krb5-dev linux-headers zeromq-dev; \
 	pip3 install python-miio; \
 	apk del --no-network .build-deps; \
-CMD ["/bin/sh"]
+#CMD ["/bin/sh"]
 #CMD ["python3"]
